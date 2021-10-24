@@ -93,20 +93,20 @@ body {
         padding-top: 30px;
         text-align: center;
     }
-
+    
     #recipe-left-column {
         float: left;
         width: 33%;
         padding-left: 50px;
         padding-top: 50px;
     }
-
+    
     #recipe-right-column {
         float: right;
         padding-right: 50px;
         padding-top: 50px;
     }
-
+    
     #recipe-center-column{
         padding: auto;
         padding-top: 50px;
