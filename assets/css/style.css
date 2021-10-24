@@ -15,5 +15,15 @@ body {
 
 nav {
     background-color: black;
-    color: white;
+    color: white;    
+}
+
+#logo {
+    font-size: 250%;
+    float: left;
+}
+
+#nav-links {
+    font-size: 110%;
+    float: right;
 }
