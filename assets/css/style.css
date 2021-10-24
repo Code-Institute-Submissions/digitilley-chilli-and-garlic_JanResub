@@ -46,6 +46,16 @@ nav {
     color: red;
 }
 
-.active {
-    border: red;
+/* Header */
+
+#header {
+    height: 600px;
+    background-color: #F25757;
+}
+
+/* Who We Are */
+
+#who-we-are {
+    height: 600px;
+    background-color: white;
 }
