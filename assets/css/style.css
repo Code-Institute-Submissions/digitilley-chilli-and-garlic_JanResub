@@ -17,14 +17,19 @@ body {
     font-size: 250%;
     float: left;
     margin-left: 30px;
+    color: black;
+}
+
+/* Header */
+
+#header {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    background-color: #F25757;
 }
 
 /* Navigation */
-
-nav {
-    background-color: white;
-    color: red;    
-}
 
 #nav-links, #logo {
     line-height: 75px;
@@ -46,16 +51,22 @@ nav {
     color: red;
 }
 
-/* Header */
+/* Who We Are */
 
-#header {
+#who {
+    height: 600px;
+    background-color: white;
+}
+
+/* Recipe of the Week */
+
+#recipe {
     height: 600px;
     background-color: #F25757;
 }
 
-/* Who We Are */
+/* Footer */
 
-#who-we-are {
-    height: 600px;
-    background-color: white;
+footer {
+    height: 150px;
 }
