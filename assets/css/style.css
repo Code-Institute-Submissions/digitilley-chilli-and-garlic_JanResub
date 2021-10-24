@@ -80,6 +80,7 @@ body {
 #about-center-column{
     padding: auto;
     padding-top: 50px;
+    text-align: center;
 }
 
 /* Recipe of the Week */
@@ -95,10 +96,7 @@ body {
     }
     
     #recipe-image {
-        float: left;
-        width: 33%;
-        padding-left: 50px;
-        padding-top: 50px;
+       
     }
     
     #recipe-right-column {
@@ -110,6 +108,7 @@ body {
     #recipe-center-column{
         padding: auto;
         padding-top: 50px;
+        text-align: center;
     }
 
 
