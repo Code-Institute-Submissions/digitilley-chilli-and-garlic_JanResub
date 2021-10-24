@@ -90,35 +90,44 @@ body {
 
 /* Recipe of the Week */
 
-    #recipe {
-        height: 600px;
-        background-color: #F25757;
-    }
+#recipe {
+    height: 600px;
+    background-color: #F25757;
+}
 
-    #recipe-heading {
-        padding-top: 30px;
-        text-align: center;
-    }
-    
-    #recipe-image {
-       
-    }
-    
-    #recipe-right-column {
-        float: right;
-        padding-right: 50px;
-        padding-top: 50px;
-    }
-    
-    #recipe-center-column{
-        padding: auto;
-        padding-top: 50px;
-        text-align: center;
-    }
+#recipe-image {
+    height: 50%;
+    width: 50%;
+    background: url('../images/pexels-murtada-mustafa-7426867.jpg') no-repeat center center;
 
+}
 
-    /* Footer */
+#recipe-heading {
+    padding-top: 50px;
+    text-align: center;
+}
 
-    footer {
-        height: 150px;
-    }
+#recipe-left {
+    padding-top: 50px;
+    width: 33%;
+    height: 75%;
+    float: left;
+    background-color: pink;
+}
+
+#recipe-right {
+    padding-top: 50px;
+    width: 33%;
+    height: 75%;
+    float: right;
+    background-color: green;
+}
+
+#recipe-center {
+    width: 33%;
+    height: 75%;
+    margin: 0 auto;
+    padding-top: 50px;
+    background-color: yellow;
+}
+
