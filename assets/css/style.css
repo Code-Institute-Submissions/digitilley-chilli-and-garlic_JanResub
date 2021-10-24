@@ -31,7 +31,8 @@ body {
 
 /* Navigation */
 
-#nav-links, #logo {
+#nav-links,
+#logo {
     line-height: 75px;
 }
 
@@ -51,23 +52,46 @@ body {
     color: red;
 }
 
-/* Who We Are */
+/* About Us */
 
-#who-we-are {
+#about-us {
     height: 600px;
     background-color: white;
+}
+
+#about-us-heading {
+    padding-top: 30px;
+    text-align: center;
+}
+
+#column-left {
+    float: left;
+    width: 33%;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+#column-right {
+    float: right;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+
+#column-center {
+    padding: auto;
+    padding-top: 50px;
 }
 
 
 /* Recipe of the Week */
 
-#recipe {
-    height: 600px;
-    background-color: #F25757;
-}
+    #recipe {
+        height: 600px;
+        background-color: #F25757;
+    }
 
-/* Footer */
+    /* Footer */
 
-footer {
-    height: 150px;
-}
+    footer {
+        height: 150px;
+    }
