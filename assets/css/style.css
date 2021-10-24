@@ -64,24 +64,23 @@ body {
     text-align: center;
 }
 
-#column-left {
+#about-left-column {
     float: left;
     width: 33%;
     padding-left: 50px;
     padding-top: 50px;
 }
 
-#column-right {
+#about-right-column {
     float: right;
     padding-right: 50px;
     padding-top: 50px;
 }
 
-#column-center {
+#about-center-column{
     padding: auto;
     padding-top: 50px;
 }
-
 
 /* Recipe of the Week */
 
@@ -89,6 +88,30 @@ body {
         height: 600px;
         background-color: #F25757;
     }
+
+    #recipe-heading {
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    #recipe-left-column {
+        float: left;
+        width: 33%;
+        padding-left: 50px;
+        padding-top: 50px;
+    }
+
+    #recipe-right-column {
+        float: right;
+        padding-right: 50px;
+        padding-top: 50px;
+    }
+
+    #recipe-center-column{
+        padding: auto;
+        padding-top: 50px;
+    }
+
 
     /* Footer */
 
