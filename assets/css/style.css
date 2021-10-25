@@ -139,3 +139,7 @@ body {
     box-sizing: border-box;
 }
 
+footer {
+    height: 150px;
+    width: 100%;
+}
