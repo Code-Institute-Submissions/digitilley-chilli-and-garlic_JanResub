@@ -20,20 +20,11 @@ body {
     color: black;
 }
 
-/* Header */
-
-#header {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-    background-color: #F25757;
-}
-
 /* Navigation */
 
-#nav-links,
-#logo {
+#nav-links, #logo {
     line-height: 75px;
+    text-transform: lowercase;
 }
 
 #nav-links li {
@@ -50,6 +41,15 @@ body {
 
 #nav-links a:hover {
     color: red;
+}
+
+/* Header */
+
+#header {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    background-color: #F25757;
 }
 
 /* About Us */
@@ -69,7 +69,6 @@ body {
     width: 33%;
     height: 75%;
     float: left;
-    background-color: pink;
     box-sizing: border-box;
     text-align: center;
 }
@@ -79,7 +78,6 @@ body {
     width: 33%;
     height: 75%;
     float: right;
-    background-color: green;
     box-sizing: border-box;
     text-align: center;
 }
@@ -89,7 +87,6 @@ body {
     width: 33%;
     height: 75%;
     margin: 0 auto;
-    background-color: yellow;
     box-sizing: border-box;
     text-align: center;
 }
@@ -99,14 +96,7 @@ body {
 #recipe {
     height: 600px;
     background-color: #F25757;
-    box-sizing: border-box
-}
-
-#recipe-image {
-    height: 50%;
-    width: 50%;
-    background: url('../images/pexels-murtada-mustafa-7426867.jpg') no-repeat center center;
-
+    color: white;
 }
 
 #recipe-heading {
@@ -115,12 +105,16 @@ body {
     
 }
 
+#recipe-image {
+    background-image: url('..//images/pexels-murtada-mustafa-7426867.jpg');
+    background-size: contain;
+}
+
 #recipe-left {
     padding: 50px 50px 50px;
     width: 33%;
     height: 75%;
     float: left;
-    background-color: pink;
     box-sizing: border-box;
     text-align: center;
 }
@@ -130,7 +124,6 @@ body {
     width: 33%;
     height: 75%;
     float: right;
-    background-color: green;
     box-sizing: border-box;
     text-align: center;
 }
@@ -140,12 +133,12 @@ body {
     width: 33%;
     height: 75%;
     margin: 0 auto;
-    background-color: yellow;
     box-sizing: border-box;
     text-align: center;
 }
 
 footer {
-    height: 150px;
+    height: 300px;
     width: 100%;
+    color: black;
 }
