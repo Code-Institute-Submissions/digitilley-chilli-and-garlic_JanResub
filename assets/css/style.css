@@ -109,29 +109,33 @@ body {
 #recipe-heading {
     padding-top: 50px;
     text-align: center;
+    
 }
 
 #recipe-left {
-    padding-top: 50px;
+    padding: 50px 20px 50px;
     width: 33%;
     height: 75%;
     float: left;
     background-color: pink;
+    box-sizing: border-box;
 }
 
 #recipe-right {
-    padding-top: 50px;
+    padding: 50px 20px 50px;
     width: 33%;
     height: 75%;
     float: right;
     background-color: green;
+    box-sizing: border-box;
 }
 
 #recipe-center {
     width: 33%;
     height: 75%;
     margin: 0 auto;
-    padding-top: 50px;
+    padding: 50px 20px 50px;
     background-color: yellow;
+    box-sizing: border-box;
 }
 
