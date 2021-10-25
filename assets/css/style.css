@@ -65,7 +65,7 @@ body {
 }
 
 #about-left {
-    padding: 50px 20px 50px;
+    padding: 50px 50px 50px;
     width: 33%;
     height: 75%;
     float: left;
@@ -74,7 +74,7 @@ body {
 }
 
 #about-right {
-    padding: 50px 20px 50px;
+    padding: 50px 50px 50px;
     width: 33%;
     height: 75%;
     float: right;
@@ -83,10 +83,10 @@ body {
 }
 
 #about-center {
+    padding: 50px 50px 50px;
     width: 33%;
     height: 75%;
     margin: 0 auto;
-    padding: 50px 20px 50px;
     background-color: yellow;
     box-sizing: border-box;
 }
@@ -113,7 +113,7 @@ body {
 }
 
 #recipe-left {
-    padding: 50px 20px 50px;
+    padding: 50px 50px 50px;
     width: 33%;
     height: 75%;
     float: left;
@@ -122,7 +122,7 @@ body {
 }
 
 #recipe-right {
-    padding: 50px 20px 50px;
+    padding: 50px 50px 50px;
     width: 33%;
     height: 75%;
     float: right;
@@ -131,10 +131,10 @@ body {
 }
 
 #recipe-center {
+    padding: 50px 50px 50px;
     width: 33%;
     height: 75%;
     margin: 0 auto;
-    padding: 50px 20px 50px;
     background-color: yellow;
     box-sizing: border-box;
 }
