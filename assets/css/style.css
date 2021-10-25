@@ -71,6 +71,7 @@ body {
     float: left;
     background-color: pink;
     box-sizing: border-box;
+    text-align: center;
 }
 
 #about-right {
@@ -80,6 +81,7 @@ body {
     float: right;
     background-color: green;
     box-sizing: border-box;
+    text-align: center;
 }
 
 #about-center {
@@ -89,6 +91,7 @@ body {
     margin: 0 auto;
     background-color: yellow;
     box-sizing: border-box;
+    text-align: center;
 }
 
 /* Recipe of the Week */
@@ -119,6 +122,7 @@ body {
     float: left;
     background-color: pink;
     box-sizing: border-box;
+    text-align: center;
 }
 
 #recipe-right {
@@ -128,6 +132,7 @@ body {
     float: right;
     background-color: green;
     box-sizing: border-box;
+    text-align: center;
 }
 
 #recipe-center {
@@ -137,6 +142,7 @@ body {
     margin: 0 auto;
     background-color: yellow;
     box-sizing: border-box;
+    text-align: center;
 }
 
 footer {
