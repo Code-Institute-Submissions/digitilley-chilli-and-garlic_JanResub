@@ -137,8 +137,20 @@ body {
     text-align: center;
 }
 
-footer {
-    height: 300px;
+/* Send Us Your Recipe */
+
+#send-us {
+    height: 600px;
     width: 100%;
+    background-color: #white;
     color: black;
+}
+
+/* Footer */
+
+footer {
+    height: 150px;
+    width: 100%;
+    background-color: #F25757;
+    color: white;
 }
