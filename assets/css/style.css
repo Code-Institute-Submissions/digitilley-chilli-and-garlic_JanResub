@@ -85,7 +85,7 @@ body {
 
 #h3-header {
     text-align: center;
-    margin: 20px;
+    margin: 50px;
     color: white;
 }
 
@@ -213,7 +213,7 @@ body {
 }
 
 /* Send Us Your Recipe */
-#send-us {
+#join {
     height: 600px;
     width: 100%;
     background-color: white;
