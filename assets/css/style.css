@@ -12,7 +12,7 @@ html {
 
 body {
     font-family: Montserrat, sans-serif;
-    color: black;
+    color: #F25757;
 }
 
 /* Logo */
@@ -34,7 +34,6 @@ body {
 
 #nav-links, #logo {
     line-height: 75px;
-    text-transform: lowercase;
 }
 
 #nav-links li {
@@ -111,17 +110,14 @@ body {
     color: white;
 }
 
+.round-img {
+    max-width: 75%;
+    height: 100%;
+    padding: 50px;
+    border-radius: 50%;
 }
 
 /* About Us */
-
-.round-img {
-    max-width: 6.5em;
-    height: auto;
-    object-fit: cover;
-    border-radius: 10em;
-    padding-bottom: 1em;
-}
 
 #about-us {
     min-height: 600px;
@@ -131,7 +127,7 @@ body {
 #about-left {
     padding: 50px 50px 50px;
     width: 33%;
-    height: 75%;
+    height: auto;
     float: left;
     box-sizing: border-box;
     text-align: center;
@@ -140,7 +136,7 @@ body {
 #about-right {
     padding: 50px 50px 50px;
     width: 33%;
-    height: 75%;
+    height: auto;
     float: right;
     box-sizing: border-box;
     text-align: center;
@@ -149,7 +145,7 @@ body {
 #about-center {
     padding: 50px 50px 50px;
     width: 33%;
-    height: 75%;
+    height: auto%;
     margin: 0 auto;
     box-sizing: border-box;
     text-align: center;
@@ -157,17 +153,15 @@ body {
 
 /* Recipe of the Week */
 
-.round-img {
-    max-width: 6.5em;
-    height: auto;
-    object-fit: cover;
-    border-radius: 10em;
-    padding-bottom: 1em;
-}
-
 #recipe {
     min-height: 600px;
     background-color: #F25757;
+}
+
+.recipe-img {
+    max-width: 75%;
+    height: 100%;
+    border-radius: 50%;
 }
 
 #recipe-left {
@@ -186,7 +180,7 @@ body {
     height: 75%;
     float: right;
     box-sizing: border-box;
-    text-align: center;
+    text-align: left;
     color: white;
 }
 
@@ -196,7 +190,7 @@ body {
     height: 75%;
     margin: 0 auto;
     box-sizing: border-box;
-    text-align: center;
+    text-align: left;
     color: white;
 }
 
@@ -205,7 +199,6 @@ body {
     height: 600px;
     width: 100%;
     background-color: white;
-    color: black;
 }
 
 /* Footer */
