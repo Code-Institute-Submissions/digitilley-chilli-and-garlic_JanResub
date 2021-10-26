@@ -12,7 +12,7 @@ html {
 
 body {
     font-family: Montserrat, sans-serif;
-    color: #F25757;
+    color: black;
 }
 
 /* Logo */
@@ -21,19 +21,31 @@ body {
     font-size: 250%;
     float: left;
     margin-left: 30px;
-    color: black;
+    text-decoration: none;
+}
+
+.heading {
+    text-decoration: none;
+    color: white;
 }
 
 #logo-img {
     max-width: 1em;
     height: auto;
     object-fit: cover;
+    color: inherit;
 }
 
 /* Navigation */
 
+#nav-links {
+    height: 75px;
+    background-color: #F25757;
+}
+
 #nav-links, #logo {
     line-height: 75px;
+    text-decoration: none;
 }
 
 #nav-links li {
@@ -49,7 +61,7 @@ body {
 }
 
 #nav-links a:hover {
-    color: red;
+    color: #F25757;
 }
 
 /* Header */
@@ -90,24 +102,26 @@ body {
     padding-top: 1.2em;
     text-align: center;
     font-size: 2.5em;
+    color: #F25757;
 }
 
 .heading-h2-alt {
     padding-top: 1.2em;
     text-align: center;
     font-size: 2.5em;
-    color: White;
+    color: FFFBFF;
 }
 
 .sub-heading-h3 {
     font-size: 1.3em;
     padding-bottom: 1em;
+    color: #F25757;
 }
 
 .sub-heading-h3-alt {
     font-size: 1.3em;
     padding-bottom: 1em;
-    color: white;
+    color: FFFBFF;
 }
 
 .round-img {
@@ -156,6 +170,7 @@ body {
 #recipe {
     min-height: 600px;
     background-color: #F25757;
+    color: white;
 }
 
 .recipe-img {
@@ -171,7 +186,6 @@ body {
     float: left;
     box-sizing: border-box;
     text-align: center;
-    color: white;
 }
 
 #recipe-right {
@@ -181,7 +195,6 @@ body {
     float: right;
     box-sizing: border-box;
     text-align: left;
-    color: white;
 }
 
 #recipe-center {
@@ -191,7 +204,6 @@ body {
     margin: 0 auto;
     box-sizing: border-box;
     text-align: left;
-    color: white;
 }
 
 /* Send Us Your Recipe */
@@ -203,10 +215,10 @@ body {
 
 /* Footer */
 footer {
-    height: 150px;
+    height: 75px;
     width: 100%;
     background-color: #F25757;
-    color: white;
+    color: #FFFBFF;
 }
 
 iframe {
