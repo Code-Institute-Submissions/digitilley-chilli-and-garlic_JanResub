@@ -90,14 +90,25 @@ body {
 
 /* About Us */
 
-#about-us {
-    height: 600px;
-    background-color: white;
+/* About Us */
+
+.round-img {
+    max-width: 6.5em;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10em;
+    padding-bottom: 1em;
 }
 
-#about-us-heading {
-    padding-top: 50px;
-    text-align: center;
+.about-us-h3 {
+    font-size: 1.4em;
+    color: #f25757;
+    padding-bottom: 1em;
+}
+
+#about-us {
+    min-height: 600px;
+    background-color: white;
 }
 
 #about-left {
