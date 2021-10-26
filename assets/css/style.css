@@ -29,11 +29,10 @@ body {
     color: white;
 }
 
-#logo-img {
-    max-width: 1em;
-    height: auto;
-    object-fit: cover;
-    color: inherit;
+.heading:hover {
+    text-decoration: none;
+    color: #F25757;
+    background-color: white;
 }
 
 /* Navigation */
@@ -58,10 +57,6 @@ body {
 #nav-links a {
     text-decoration: none;
     columns: inherit;
-}
-
-#nav-links a:hover {
-    color: #F25757;
 }
 
 /* Header */
@@ -96,6 +91,11 @@ body {
     font-size: 1.5em;
     font-weight: bold;
     color: white;
+}
+
+#btn-header:hover {
+    background-color: white;
+    color: #F25757;
 }
 
 #btn-container-div {
