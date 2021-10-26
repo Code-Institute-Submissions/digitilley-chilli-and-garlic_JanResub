@@ -185,12 +185,18 @@ body {
 }
 
 /* Send Us Your Recipe */
-
 #send-us {
     height: 600px;
     width: 100%;
-    background-color: #white;
+    background-color: white;
     color: black;
+}
+
+/* Out Favourite Restaurants in London */
+
+iframe {
+    display: block;
+    width: 100%
 }
 
 /* Footer */
