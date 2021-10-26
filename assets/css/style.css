@@ -91,9 +91,14 @@ body {
     padding-top: 1.2em;
     text-align: center;
     font-size: 2.5em;
-    
 }
 
+.heading-h2-alt {
+    padding-top: 1.2em;
+    text-align: center;
+    font-size: 2.5em;
+    color: White;
+}
 /* About Us */
 
 .round-img {
@@ -154,6 +159,7 @@ body {
 .recipe-h3 {
     font-size: 1.4em;
     padding-bottom: 1em;
+    color: white;
 }
 
 #recipe {
