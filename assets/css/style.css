@@ -24,6 +24,12 @@ body {
     color: black;
 }
 
+#logo-img {
+    max-width: 1em;
+    height: auto;
+    object-fit: cover;
+}
+
 /* Navigation */
 
 #nav-links, #logo {
@@ -86,9 +92,6 @@ body {
     text-align: center;
     font-size: 2.5em;
 }
-
-
-/* About Us */
 
 /* About Us */
 
@@ -192,18 +195,15 @@ body {
     color: black;
 }
 
-/* Out Favourite Restaurants in London */
-
-iframe {
-    display: block;
-    width: 100%
-}
-
 /* Footer */
-
 footer {
     height: 150px;
     width: 100%;
     background-color: #F25757;
     color: white;
+}
+
+iframe {
+    display: block;
+    width: 100%
 }
