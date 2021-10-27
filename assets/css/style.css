@@ -224,8 +224,11 @@ body {
 }
 
 .iframe-playlist {
+    padding: 50px 50px 50px;
+    width: 33%;
+    height: 75%;
     float: left;
-    width: 50%;
+    box-sizing: border-box;
 }
 
 #send-us .heading-h2 {
