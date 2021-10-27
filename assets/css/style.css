@@ -221,14 +221,43 @@ body {
 #send-us {
     height: 600px;
     width: 100%;
+    max-width: 50%;
+    margin: auto;
     background-color: white;
 }
+
+#send-us .heading-h2 {
+    margin-bottom: 30px;
+}
+
 
 #send-us #fname, #lname, #email, #submit, #user-recipe {
     border-style: solid;
     border-width: 1px;
     border-color: #F25757;
     font-size: 14px;
+}
+
+.form-label {
+    min-width: 50%;
+    display: inline-block;
+    text-align: right;
+}
+
+#user-recipe {
+    height: 300px;
+    width: 300px;
+    vertical-align: top;
+}
+
+.form-left {
+    float: left;
+    width: 50%;
+}
+
+.form-right {
+    float: right;
+    width: 50%;
 }
 
 /* Footer */
@@ -244,7 +273,12 @@ iframe {
     background-color: #F25757;
 }
 
-#socials {
+.footer-content {
+    max-width: 80%;
+    margin: auto;
+}
+
+#socials li {
     float: left;
     list-style-type: none;
     margin-left: 30px;
@@ -253,10 +287,10 @@ iframe {
 
 #sign-up {
     float: right;
-    margin-left: 30px;
+    margin-right: 30px;
 }
 
-#socials, #sign-up {
+#socials li, #sign-up {
     line-height: 75px;
     overflow: hidden;
     text-decoration: none;
