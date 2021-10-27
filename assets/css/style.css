@@ -217,19 +217,20 @@ body {
     text-align: left;
 }
 
-/* Send Us Your Recipe */
-#send-us {
+/* Join our mailing list */
+#join-us {
     height: 600px;
-    width: 100%;
-    max-width: 50%;
-    margin: auto;
     background-color: white;
+}
+
+.iframe-playlist {
+    float: left;
+    width: 50%;
 }
 
 #send-us .heading-h2 {
     margin-bottom: 30px;
 }
-
 
 #send-us #fname, #lname, #email, #submit, #user-recipe {
     border-style: solid;
