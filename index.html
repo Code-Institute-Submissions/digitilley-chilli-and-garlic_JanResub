@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -21,8 +20,8 @@
             <h1 id="logo"><a href="index.html" class="heading">Chilli & Garlic</a></h1>
             <ul id="nav-links">
                 <li><a href="#our-fav" class="heading">Eat</a></li>
-                <li><a href="#send-us" class="heading">Recipe</a></li>
-                <li><a href="#recipe" class="heading">Join</a></li>
+                <li><a href="#join" class="heading">Join</a></li>
+                <li><a href="#recipe" class="heading">Recipe</a></li>
                 <li><a href="#about-us" class="heading">About</a></li>
             </ul>
         </div>
@@ -31,7 +30,8 @@
     <!-- Header -->
     <header id="header">
         <h2 id="h2-header">Our favourite recipes, weekly!</h2>
-        <h3 id="h3-header">Each week we share our favourite plant-based recipes, taking inspiration from the places we love to eat and our favourite cuisine. Join our newsletter to receive a weekly recipe!</h3>
+        <h3 id="h3-header">Each week we share our favourite plant-based recipes, taking inspiration from the places we
+            love to eat and our favourite cuisine. Join our newsletter to receive a weekly recipe!</h3>
         <div id="btn-container-div">
             <a href="#recipe"><button id="btn-header">Join</button></a>
         </div>
@@ -45,7 +45,8 @@
                 <div>
                     <h3 class="sub-heading-h3">Lovers of plant-based foods</h3>
                     <div>
-                        <img src="assets/images/veg-smile.jpeg" class="round-img" alt="Green neon sign, dimly lit, in bushes">
+                        <img src="assets/images/veg-smile.jpeg" class="round-img"
+                            alt="Green neon sign, dimly lit, in bushes">
                     </div>
                 </div>
             </div>
@@ -84,10 +85,16 @@
                     <h3 class="sub-heading-h3-alt">Method</h3>
                     <div>
                         <ol class="recipe-content">
-                            <li>Mix together the coriander, chilli and sunflower oil in a bowl. Fry half the mixture in a wok over a medium heat, and stir-fry for 1 minute. Remove and set aside.</li>
-                            <li>Add the remaining flavoured oil to the wok and stir-fry the shallots for 1 minute. Add the sugar and the eggs, and cook for 1 minute, stirring frequently to scramble the eggs as they begin to set.</li>
-                            <li>Stir in the oyster sauce, lime juice, noodles, and beansprouts. Stir-fry for 2 minutes, then add the spring onions and half the peanuts. Toss everything together for 1-2 minutes, or until piping hot.</li>
-                            <li>To serve, divide between 4 individual bowls, scatter the remaining peanuts on top, and serve with lime wedges.</li>
+                            <li>Mix together the coriander, chilli and sunflower oil in a bowl. Fry half the mixture in
+                                a wok over a medium heat, and stir-fry for 1 minute. Remove and set aside.</li>
+                            <li>Add the remaining flavoured oil to the wok and stir-fry the shallots for 1 minute. Add
+                                the sugar and the eggs, and cook for 1 minute, stirring frequently to scramble the eggs
+                                as they begin to set.</li>
+                            <li>Stir in the oyster sauce, lime juice, noodles, and beansprouts. Stir-fry for 2 minutes,
+                                then add the spring onions and half the peanuts. Toss everything together for 1-2
+                                minutes, or until piping hot.</li>
+                            <li>To serve, divide between 4 individual bowls, scatter the remaining peanuts on top, and
+                                serve with lime wedges.</li>
                         </ol>
                     </div>
                 </div>
@@ -118,19 +125,25 @@
         </section>
         <!-- Send Us Your Recipe -->
         <!-- Form structure taken from: "TBC" -->
-        <section id="join">
-            <h2 class="heading-h2">Join our mailing list, today!</h2>
+        <section id="send-us">
+            <h2 class="heading-h2">Send us your recipe</h2>
             <!-- Form -->
-            <form action="/action_page.php">
-                <label for="fname">First name:</label><br>
-                <input type="text" id="fname" name="fname" value=""><br>
-                <label for="lname">Last name:</label><br>
-                <input type="text" id="lname" name="lname" value=""><br><br>
-                <input type="submit" value="Submit">
-            </form> 
+            <form action="www.thanksforjoingingourmailinglist.com" method="post" id="form">
+                <label for="fname" type="text" id="">First Name</label>
+                <input type="text" id="fname" name="fname">
+                <label for="lname" type="text" id="">Last Name</label>
+                <input type="text" id="lname" name="lname">
+                <label for="email" type="text" id="">Email</label>
+                <input type="email" id="email" name="user-recipe">
+                <label for="recipe" type="text" id="">Your recipe</label>
+                <input type="text" id="user-recipe" name="user-recipe">
+                <label for="email" type="text" id=""></label>
+                <input type="submit" id="submit" value="submit">
+            </form>
         </section>
         <section id="our-fav">
-            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1dwMoTU6d9C_fs_mU2uE7ELtULNcTGuEu" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1dwMoTU6d9C_fs_mU2uE7ELtULNcTGuEu" height="450"
+                style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </section>
     </main>
     <!-- Footer -->
@@ -144,4 +157,5 @@
         </div>
     </footer>
 </body>
+
 </html>
