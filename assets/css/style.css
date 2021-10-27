@@ -105,14 +105,14 @@ body {
 
 /* Generic */
 .heading-h2 {
-    padding-top: 1.2em;
+    padding-top: 55px;
     text-align: center;
     font-size: 2.5em;
     color: #F25757;
 }
 
 .heading-h2-alt {
-    padding-top: 1.2em;
+    padding-top: 55px;
     text-align: center;
     font-size: 2.5em;
     color: FFFBFF;
@@ -223,6 +223,12 @@ body {
     background-color: white;
 }
 
+.join-us-h3 {
+    padding-top: 5px;
+    text-align: center;
+    font-size: 14px;
+}
+
 .iframe-playlist {
     padding: 50px 50px 50px;
     width: 33%;
@@ -239,29 +245,28 @@ body {
     border-style: solid;
     border-width: 1px;
     border-color: #F25757;
-    font-size: 14px;
+    font-size: 25px;
+    background-color: #F25757;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+
 }
 
 .form-label {
-    min-width: 50%;
+    max-width: 100%;
     display: inline-block;
     text-align: right;
 }
 
-#user-recipe {
-    height: 300px;
-    width: 300px;
-    vertical-align: top;
-}
-
-.form-left {
+#form-id {
+    max-width: 60%;
+    /* margin: 0 auto; */
     float: left;
-    width: 50%;
-}
-
-.form-right {
-    float: right;
-    width: 50%;
+    padding-left: -22px;
+    padding-right: 100px;
+    line-height: 300px;
+    font-size: 25px;
 }
 
 /* Footer */
