@@ -269,6 +269,11 @@ body {
     font-size: 25px;
 }
 
+#submit:hover {
+    background-color: #F25757;
+    color: white;
+}
+
 /* Footer */
 
 iframe {
