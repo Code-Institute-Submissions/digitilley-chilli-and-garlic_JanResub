@@ -287,20 +287,24 @@ iframe {
     margin: auto;
 }
 
+.social-styling {
+    color: white;
+    text-decoration: none;
+}
+
 #socials li {
     float: left;
     list-style-type: none;
     margin-left: 30px;
     overflow: hidden;
-}
-
-#sign-up {
-    float: right;
-    margin-right: 30px;
-}
-
-#socials li, #sign-up {
     line-height: 75px;
     overflow: hidden;
-    text-decoration: none;
 }
+
+/* Media query for responsive styles */
+
+@media screen (max-width: 768px) {
+    .recipe {
+      padding: 20px;
+    }
+  }
