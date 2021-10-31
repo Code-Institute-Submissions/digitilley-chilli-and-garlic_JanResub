@@ -13,7 +13,7 @@ html {
 
 body {
     font-family: Montserrat, sans-serif;
-    color: #F25757;
+    color: #373E40;
 }
 
 /* Logo */
@@ -32,7 +32,7 @@ body {
 
 .heading:hover {
     text-decoration: none;
-    color: #F25757;
+    color: #373E40;
     background-color: white;
 }
 
@@ -49,7 +49,7 @@ body {
 
 #nav-links {
     height: 75px;
-    background-color: #F25757;
+    background-color: #373E40;
 }
 
 #nav-links, #logo {
@@ -114,7 +114,7 @@ body {
 
 #btn-header {
     padding: 22px;
-    background-color: #F25757;
+    background-color: #373E40;
     border-radius: 25px;
     font-size: 30px;
     font-weight: bold;
@@ -123,7 +123,7 @@ body {
 
 #btn-header:hover {
     background-color: white;
-    color: #F25757;
+    color: #373E40;
 }
 
 #btn-container-div {
@@ -147,7 +147,7 @@ body {
     padding-top: 55px;
     text-align: center;
     font-size: 42px;
-    color: #F25757;
+    color: #373E40;
 }
 
 .heading-h2-alt {
@@ -160,7 +160,7 @@ body {
 .sub-heading-h3 {
     font-size: 25px;
     padding-bottom: 5px;
-    color: #F25757;
+    color: #373E40;
 }
 
 .sub-heading-h3-alt {
@@ -226,7 +226,7 @@ body {
 
 #recipe {
     min-height: 600px;
-    background-color: #F25757;
+    background-color: #373E40;
     color: white;
 }
 
@@ -308,12 +308,12 @@ body {
 #send-us #fname, #lname, #email, #submit, #user-recipe {
     border-style: solid;
     border-width: 1px;
-    border-color: #F25757;
+    border-color: #373E40;
     font-size: 25px;
-    background-color: white;
+    background-color: 373E40;
     padding-left: 5px;
     padding-right: 5px;
-    color: #F25757;
+    color: #373E40;
 
 }
 
@@ -333,7 +333,7 @@ body {
 }
 
 #submit:hover {
-    background-color: #F25757;
+    background-color: #373E40;
     color: white;
 }
 
@@ -363,7 +363,7 @@ body {
     text-align: center;
     font-size: 42px;
     color: white;   
-    background-color:#F25757; 
+    background-color:#373E40; 
 }
 
 iframe {
@@ -374,7 +374,7 @@ iframe {
 
 #footer {
     height: 75px;
-    background-color: #F25757;
+    background-color: #373E40;
 }
 
 .footer-content {
