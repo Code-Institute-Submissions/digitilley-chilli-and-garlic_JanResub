@@ -37,6 +37,47 @@ This sect#on covers the features used for the website to function seamlesslesly,
 
 <img src="assets/images/hero-img.png">
 
-- About Section
-    - 
+- <b>About Section</b>
+    - The About Us section of the website provides a brief insight to who the site owners are and why they've created the website.
+    - The images used were intended to be playful and stylish. 
+
+<img src="assets/images/about-us.png">
+
+- <b>Recipe Of The Week Section</b>
+    - The Recipe of the Week section of the website shares a weekly plant-based recipe for the user to try out, it showcases an image of the meal and provides a detailed ingredients list, and cooking method.
+    - The image styling was kept consistent with the About Us section for a consistent UX
+
+<img src="assets/images/recipe-of-the-week">
+
+- <b>Join Our Mailing List</b>
+    - The Join Our Mailing List section of the website was added to give users the ability to opt in for weekly emails of new and exciting plant-based recipes. 
+    - An embeded Spotify playlist was also added to give users the ability to listen to the site owners favourite songs while trying out the suggested recipe.
+
+<img src="assets/images/join-our.png">
+
+- <b>Our Favourite Restaurants</b>
+    - The Our Favourite Restaurants section was added to share with users where the site owners draw inspiration from for their suggested meals. 
+    - An embeded Google Maps list of locations was used to provide an interactive and resourceful source of restaurants in London. 
+
+<img src="assets/images/our-fav">
+
+- <b>Footer</b>
+    - The Footer includes social media links to the site owners social media accounts, ensuring users can easily find and follow them.
+
+- ### Validator Testing
+    - HTML
+        - No errors were returned when passing through the official [W3C Validator](https://validator.w3.org/nu/#textarea)
+    - CSS
+        - No errors were found when passing through the official [Jigsaw Validator] (https://jigsaw.w3.org/css-validator/validator)
+    - Accessibility
+        - Scored the minimum 98% throughout the whole site.
+    
+    <img src="assets/images/lighthouse-report.png">
+
+
+
+
+
+
+
 
