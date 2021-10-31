@@ -59,7 +59,7 @@ This sect#on covers the features used for the website to function seamlesslesly,
     - The Our Favourite Restaurants section was added to share with users where the site owners draw inspiration from for their suggested meals. 
     - An embeded Google Maps list of locations was used to provide an interactive and resourceful source of restaurants in London. 
 
-<img src="assets/images/our-fav">
+<img src="assets/images/our-fav.png">
 
 - <b>Footer</b>
     - The Footer includes social media links to the site owners social media accounts, ensuring users can easily find and follow them.
@@ -74,6 +74,29 @@ This sect#on covers the features used for the website to function seamlesslesly,
     
     <img src="assets/images/lighthouse-report.png">
 
+    - Mobile Repsonsiveness
+        - Minimum screen size was modelled on 375px, using the iPhone 6/7/8 pre-set option in Google's Chrome Developer Tools.
+    
+    ### Bugs
+
+    There were no known bugs at the time of final deployment.
+
+    ## Deployment
+    - The site was deployed to GitHub pages using the following steps..
+
+        - While in the GitHub repository, go to the settings tab
+        - In the "Source Section, select "Master Branch"
+        - Select Pages
+        - In the source section drop-down menu, choose the Main Branch and save
+    
+
+    ## Credits
+    - General
+        - Reuben, my Code Institute tutor
+        - [General challenges with HTML/CSS](https://www.w3schools.com/) 
+        - [Fonts](https://fonts.google.com)
+        - [Images](https://pexels.com)
+        - [How to embed](https://google.com)
 
 
 
