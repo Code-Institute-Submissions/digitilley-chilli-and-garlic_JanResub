@@ -27,7 +27,7 @@ body {
 
 .heading {
     text-decoration: none;
-    color: white;
+    color: red;
 }
 
 .heading:hover {
