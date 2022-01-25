@@ -27,7 +27,7 @@ body {
 
 .heading {
     text-decoration: none;
-    color: red;
+    color: white;
 }
 
 .heading:hover {
@@ -310,7 +310,7 @@ body {
     border-width: 1px;
     border-color: #373E40;
     font-size: 25px;
-    background-color: #373E40;
+    background-color: white;
     padding-left: 5px;
     padding-right: 5px;
     color: #373E40;
