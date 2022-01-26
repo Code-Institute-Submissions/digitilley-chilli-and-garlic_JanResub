@@ -47,13 +47,13 @@ This sect#on covers the features used for the website to function seamlesslesly,
     - The Recipe of the Week section of the website shares a weekly plant-based recipe for the user to try out, it showcases an image of the meal and provides a detailed ingredients list, and cooking method.
     - The image styling was kept consistent with the About Us section for a consistent UX
 
-<img src="assets/images/recipe-of-the-week">
+<img src="assets/images/recipe-of-the-week.png">
 
 - <b>Join Our Mailing List</b>
     - The Join Our Mailing List section of the website was added to give users the ability to opt in for weekly emails of new and exciting plant-based recipes. 
     - An embeded Spotify playlist was also added to give users the ability to listen to the site owners favourite songs while trying out the suggested recipe.
 
-<img src="assets/images/join-our.png">
+<img src="assets/images/join-our-2.png">
 
 - <b>Our Favourite Restaurants</b>
     - The Our Favourite Restaurants section was added to share with users where the site owners draw inspiration from for their suggested meals. 
